@@ -7,5 +7,4 @@ install:
 script:
  - python -m unittest testFunction2.py
  - coverage run testFunction2.py
-after_success:  bash <(curl -s https://codecov.io/bash) -t be53040e-9409-4100-90da-80047f330e7a
-
+after_success:  bash <(curl -s https://codecov.io/bash)
