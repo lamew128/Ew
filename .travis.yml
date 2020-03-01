@@ -6,4 +6,5 @@ install:
  - pip install codecov
 script:
 
-after_success: bash <(curl -s https://codecov.io/bash)
+after_success: bash <(curl -s https://codecov.io/bash) -t be53040e-9409-4100-90da-80047f330e7a
+
